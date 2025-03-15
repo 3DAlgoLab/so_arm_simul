@@ -6,7 +6,7 @@ from mocap_move import key_callback_data
 
 def main():
     # Load the mujoco model basic.xml
-    model = mujoco.MjModel.from_xml_path("google_robot/google_robot_scene.xml")
+    model = mujoco.MjModel.from_xml_path("trs_so_arm100/scene.xml")
     data = mujoco.MjData(model)
 
     def key_callback(key):
