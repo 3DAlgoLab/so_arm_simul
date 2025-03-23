@@ -36,7 +36,7 @@ def key_callback_data(key, data):
         data.mocap_pos[0, 1] -= 0.01
     elif key == 260:  # Insert
         data.mocap_quat[0] = rotate_quaternion(data.mocap_quat[0], [1, 0, 0], 10)
-    elif key == 261:  # Home
+    elif key == 261:  # del
         data.mocap_quat[0] = rotate_quaternion(data.mocap_quat[0], [1, 0, 0], -10)
     elif key == 268:  # Home
         data.mocap_quat[0] = rotate_quaternion(data.mocap_quat[0], [0, 1, 0], 10)
