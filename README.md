@@ -14,3 +14,13 @@
 **XArm Simul (mujoco based)**
 
 - [gym-xarm](https://github.com/huggingface/gym-xarm)
+
+
+
+## glfw related error!
+- swarst error realted problem for wsl2 
+`ln -s -f /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30 $CONDA_PREFIX/lib/libstdc++.so.6`
+
+src: [Running spinningup in WSL2 with WSLg on Windows (Success) · Issue #377 · openai/spinningup](https://github.com/openai/spinningup/issues/377)
+
+
